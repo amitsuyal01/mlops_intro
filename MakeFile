@@ -8,7 +8,9 @@ test:
 	pytest test_calculator.py
 
 format:
-	black calculator.py
-	black test_calculator.py
+	black *py
 
-all: install lint test format
+all: install
+	lint
+	test
+	format
