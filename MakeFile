@@ -1,3 +1,14 @@
 install:
 	pip install -r requirements.txt
 
+lint:
+	pylint --disable=R,C  calculator.py
+
+test:
+	pytest test_calculator.py
+
+format:
+	black calculator.py
+	black test_calculator.py
+
+all: install lint test format
