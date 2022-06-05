@@ -29,6 +29,11 @@
 7. Another file 'test_calculator.py' is used for performing all the necessary tests
      - the 'test_calculator.py' file is used for testing the 'calculator.py' file using the pytest module
 
-
-
+## To use the application, follow the following steps:
+1. Clone the repo
+2. create a python virtual environment
+3. run pip install requirements.txt file
+4. this python app can be used through command line interface using
+          - 'python calculator.py number1 number2'
+          - or use 'python calculator.py -h' for help
 
